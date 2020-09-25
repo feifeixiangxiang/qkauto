@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Suite">
+    <test name="requestsTest">
+        <groups>
+            <!--<incloud name="group1"></incloud>-->
+            <!--<incloud name="group2"></incloud>-->
+            <run>
+                <!--<include name="test" />-->
+                <!--<include name="slow" />-->
+            </run>
+        </groups>
+        <classes>
+            <class name="main.debug.request"></class>
+        </classes>
+    </test>
+</suite>
